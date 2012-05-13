@@ -1,0 +1,590 @@
+/* *********** 全体的な設定 *********** */
+
+body {
+    background-color : #fff;
+    color            : #000;
+    font-size        : 14px;
+    font-family      : Meiryo UI:
+}
+
+hr {
+    margin : 0px;
+}
+
+table {
+    margin-top    : 10px;
+    margin-bottom : 10px;
+}
+
+th {
+    background-color : #C1FFC1;
+    padding          : 5px;
+}
+td {
+    background-color : #E1F0FF;
+    padding          : 5px;
+}
+
+img {
+    border : none;
+}
+
+li {
+    font-weight : bold;
+}
+
+a {
+    text-decoration : none;
+    color           : #d84779;
+}
+
+a:hover {
+    text-decoration : underline;
+}
+
+p {
+    display : inline;
+}
+
+pre {
+    display : inline;
+}
+
+div {
+    inline-block;
+    _display : inline;
+}
+
+.hide {
+    visibility : hidden;
+}
+
+label {
+    color : #009900;
+}
+
+.form {
+    margin : 15px;
+}
+
+.textbox {
+    border : none;
+}
+
+.left {
+    float : left;
+}
+
+.right {
+    float : right;
+}
+
+
+/* *********** 見出しの設定 *********** */
+
+h1 {
+    font-size     : 24px;
+    font-weight   : bold;
+    color         : #00FF00;
+    margin        : 0px;
+    margin-bottom : 10px;
+}
+
+h1 a {
+    color : #00FF00;
+}
+
+h1 a:hover {
+    text-decoration : none;
+    color           : #00FFFF;
+}
+
+h2 {
+    font-size      : 18px;
+    height         : 30px;
+    margin-top     : 3px;
+    margin-bottom  : 3px;
+    padding-left   : 0px;
+    padding-bottom : 0px;
+    font-style     : oblique; 
+}
+
+/*
+.h2_ver01 {     background : url(photo/middle/h2.jpg);
+                background-repeat : no-repeat;
+}
+.h2_ver02 {     background : url(photo/middle/h2_ver02.jpg);
+                background-repeat : no-repeat;
+}
+.h2_ver03 {     background : url(photo/middle/h2_ver03.jpg);
+                background-repeat : no-repeat;
+}
+*/
+
+h3 {    font-size : 22px;
+        color : #008000;
+        margin-top : 30px;
+        margin-bottom : 15px;
+}
+
+h4 {    font-size : 14px;
+        color : #FF0000;
+        margin-bottom : 5px;
+}
+
+/**************** 特定文字の設定 ****************/
+.emphaFont {    font-size : 18px;
+                font-weight : bold;
+}
+
+.middleFont {   font-size : 14px;
+                font-weight : bold;
+}
+
+.error-message {color : #990033;
+                font-size : 12px;
+                font-weight : bold;
+}
+
+/***** submitボタン周り *****/
+.submit-area {  text-align : center;
+                padding-top : 5px;
+                padding-bottom : 5px;
+}
+
+/*** コード紹介スペースの設定 ***/
+.bg-code {  background-color : #D9FFFF;
+            line-height : 18px;
+            padding-left : 10px;
+}
+
+/*** コード紹介スペースの設定 ***/
+.bg-topics {background-color : #E6FFE7;
+            line-height : 24px;
+}
+
+/*** 文字(注目用) ***/
+.attention {    color : #FF0000;
+                text-decoration : underline;
+                float:left;
+}
+
+/*** flashデザイン ***/
+.flash-message { height : 40px;
+}
+.fm-success-icon {  background : url(../img/success.png) no-repeat;
+                    width : 85px;
+                    height : 35px;
+                    float : left;
+}
+.fm-error-icon { background : url(../img/error.png) no-repeat;
+                 width : 35px;
+                 height : 35px;
+                 float : left;
+}
+.flash-message-text {   line-height : 29px;
+                        font-weight : bold;
+                        color : #FFFF00;
+}
+
+.success {  color : #C4FFC4;
+}
+
+.error {    color : #FFFF00;
+}
+
+/*** テーブルデザイン ***/
+div.ctable {
+    text-align : center; /* IEでセンタリングさせる方法 */
+}
+div.ctable table {
+    margin     : auto;   /* 標準のセンタリング方法 */
+    text-align : left;   /* IE用方法の弊害対策用 */
+}
+div.ctable table th {
+    text-align : center;
+    background : #F1F1F1;
+}
+div.ctable table td {
+    text-align : center;
+    background : #FFE9EB;
+}
+div.ctable table a {
+    color      : #d84779;
+}
+div.ctable table a:hover {
+    text-decoration: underline;
+}
+
+
+
+.index th {
+    color : #000FFF;
+}
+
+/* 必須設定：*/
+.require {
+    background-image : url(../img/required.png);
+    background-repeat : no-repeat;
+    background-position : 10px 50%;
+}
+
+.question-form {  width:600px;
+}
+
+.question-form th {   width:140px;
+                      text-align:left;
+                      background-color:#E7E7E7;
+}
+
+.question-form td {   width:360px;
+                      text-align:left;
+                      padding-left:50px;
+                      background-color:#FFF;
+}
+
+.question-form label{ color:#000;
+                      font-weight:normal;
+}
+
+.cams-form {width:770px;
+            float:right;
+}
+
+.cams-form th { width:140px;
+                text-align:left;
+}
+
+.cams-form td{  width:630px;
+                text-align:left;
+                padding-left:50px;
+}
+
+.redirect-area {background-color:#FFF;
+}
+
+/********** フォームの設定 **********/
+.formBackground {   width : 955px;
+                    height : 150px;
+                    background-image : url(photo/middle/formBackground.jpg);
+                    background-color : #DBE7F7;
+}
+
+.inputForm {    padding-top : 5px;
+                padding-left : 15px;
+                text-align : left;
+                color : #0000CC;
+}
+
+
+
+/* *********** 横並びlistの設定 *********** */
+/** 未使用 **/
+.horizonUl {    list-style:none;
+}
+/** 未使用 **/
+.horizonLi {    float:left;
+}
+
+
+
+/************************
+ * コンテンツ全体の設定：
+ ************************/
+#container {    width : 1000px;
+                margin: 0 auto;
+                margin-top : 35px;
+                margin-bottom : 40px;
+/*
+                background-image : url(../img/container-background.jpg);
+                background-repeat : repeat-y;
+*/
+}
+
+/** 未使用 **/
+#container-under {  width : 1000px;
+                    height : 20px;
+                    background-image : url(photo/overall/overall-under.jpg);
+                    background-repeat : no-repeat;
+}
+
+
+
+/***************
+ * headerの設定：
+ ***************/
+#header {   width : 1000px;
+            height : 70px;
+}
+
+#home-bar-top { width : 100%;
+                height : 29px;
+                /* Firefox用 */
+                background: -moz-linear-gradient(top, 
+                    #010066,
+                    #0080FF 90%,
+                    #CCC
+                );
+                /* Safari,Google Chrome用 */
+                background : -webkit-gradient(linear, left top, left bottom,
+                    from(#010066),
+                    color-stop(0.9, #0080FF),
+                    to(#CCC)
+                );
+                /* IE用 */
+                filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr="#010066", EndColorStr="#0080FF");
+                position : fixed;
+                top : 0;
+                left : 0;
+                padding : 3px;
+}
+* html div#home-bar-top {     
+    position: absolute;     
+    top: expression(eval(document.documentElement.scrollTop+0));  
+}
+ 
+#home-bar-bottom {  width : 100%;
+                    height : 29px;
+                    /* Firefox用 */
+                    background: -moz-linear-gradient(top,
+                        #CCC,
+                        #0080FF 10%,
+                        #0033FF
+                    );
+                    /* Safari,Google Chrome用 */
+                    background : -webkit-gradient(linear, left top, left bottom,
+                        from(#CCC),
+                        color-stop(0.1, #0080FF),
+                        to(#0033FF)
+                    );
+                    /* IE用 */
+                    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr="#0080FF", EndColorStr="#0033FF");
+                    position : fixed;
+                    bottom : 0;
+                    left : 0;
+                    padding : 3px;
+}
+* html div#home-bar-bottom {     
+    position: absolute;     
+    top: expression(eval(document.documentElement.scrollTop+0));  
+} 
+
+/*
+#longitudinal-bar-left {    width : 24px;
+                            height : 100%;
+                            background-color : #010066;
+                            position : fixed;
+                            top : 0;
+                            right : 0;
+                            padding : 3px;
+}
+
+#longitudinal-bar-right {   width : 24px;
+                            height : 100%;
+                            background-color : #010066;
+                            position : fixed;
+                            top : 0;
+                            left : 0;
+                            padding : 3px;
+}
+*/
+
+/***** divボックス内のテキスト折り返し時に利用 *****/
+.home-bar-text {    padding : 7px;
+                    padding-right : 10px;
+                    text-align : right;
+                    color : #FFF;
+                    white-space: pre;           /* CSS 2.0 */
+                    white-space: pre-wrap;      /* CSS 2.1 */
+                    white-space: pre-line;      /* CSS 3.0 */
+                    white-space: -pre-wrap;     /* Opera 4-6 */
+                    white-space: -o-pre-wrap;   /* Opera 7 */
+                    white-space: -moz-pre-wrap; /* Mozilla */
+                    white-space: -hp-pre-wrap;  /* HP Printers */
+                    word-wrap: break-word;      /* IE 5+ */
+}
+
+.home-bar-bottom-text { text-align:center;
+                        margin-top:7px;
+}
+
+.home-bar-bottom-text a {   color:#FFF;
+}
+
+.home-bar-bottom-text a:hover { color:#FFFF00;
+}
+
+/*******************
+ * content内の設定：
+ *******************/
+#content {  width : 1000px;
+            margin-top : 10px;
+            margin-bottom : 10px;
+            line-height : 25px;
+            float : left;
+}
+
+#content-left { width : 200px;
+                line-height : 25px;
+                float : left;
+                background : #FFF;
+}
+
+.content-blank {float : left;
+                width : 8px;
+                background : #00FFFF;
+}
+
+#content-center {   width : 495px;
+                    line-height : 25px;
+                    float : left;
+                    background : #FFF;
+}
+
+#content-right {width : 495px;
+                line-height : 25px;
+                float : right;
+                margin-left : 10px;
+                background : #FFF;
+}
+
+
+
+/*
+#content-left { width : 762px;
+                line-height : 25px;
+                float : left;
+                margin-left : 15px;
+                background : #fff;
+}
+
+#content-right {    width : 200px;
+                    line-height : 25px;
+                    float : left;
+                    background : #fff;
+}
+*/
+
+/** 未使用 **/
+/* google map api用スペース： */
+#map-canvas {   width: 700px;
+                height: 500px;
+}
+
+/** 未使用 **/
+/* google map api用スペース： */
+#map-canvas2 {  width: 237x;
+                height: 237px;
+}
+
+#explanation {  width : 235px;
+                height : 100px;
+                text-align : left;
+                background : #F0F0F0;
+}
+
+
+/***************
+ * footerの設定：
+ ***************/
+.footer {
+    width      : 1000px;
+    margin-top : 5px;
+    text-align : center;
+    color      : #d84779;
+    clear      : left;
+}
+
+
+
+/***************
+ * blankの設定：
+ ***************/
+/** 未使用 **/
+.blank {    clear : both;
+            width : 955px;
+            height : 10px;
+}
+
+.blank-contents {   clear : both;
+                    margin-top : 20px;
+                    margin-bottom:10px;
+                    width : 1000px;
+                    height : 40px;
+                    text-align : center;
+}
+.blank-contents td { width : 33%;
+}
+
+
+
+/***************
+ * その他の設定：
+ ***************/
+.blueSquare {   width : 12px;
+                height : 12px;
+                background : #6EFEFE;
+                display: inline-block;
+                _display: inline;
+}
+
+.greenSquare {  width : 12px;
+                height : 12px;
+                background : #00FF44;
+                display: inline-block;
+                _display: inline;
+}
+
+.yellowSquare { width : 12px;
+                height : 12px;
+                background : #FFFF00;
+                display: inline-block;
+                _display: inline;
+}
+
+.pinkSquare {   width : 12px;
+                height : 12px;
+                background : #FC6CD8;
+                display: inline-block;
+                _display: inline;
+}
+
+.redSquare {    width : 12px;
+                height : 12px;
+                background : #FF0000;
+                display: inline-block;
+                _display: inline;
+}
+
+.code_title_bg {    padding-left : 10px;
+                    color : #010066;
+}
+.code_bg {  width : 485px;
+            padding-left : 10px;
+            background-image : url(../img/code_bg.jpg);
+            background-repeat : repeat;
+}
+
+
+/*******************
+ * メッセージの設定：
+ *******************/
+.msg {  color : #0000FF;
+        font-size : 12px;
+}
+
+.error-msg {    color : red;
+                font-size : 12px;
+}
+
+/*****  *****/
+
+.left-bar { float : left;
+            width : 200px;
+            height : 800px;
+            padding : 10px;
+            margin-right : 10px;
+            background-color : #C1FFC1;
+}
+
+

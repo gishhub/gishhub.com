@@ -1,0 +1,66 @@
+2012-05-13 16:53:33 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/index.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-13 16:57:08 Error: [MissingActionException] Action PagesController::releaseNotes() could not be found.
+#0 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-13 16:59:32 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/release_notes.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-13 17:02:01 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/release_notes.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-13 17:02:46 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/release_notes.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-13 17:02:49 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/release_notes.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-13 17:03:19 Error: [MissingControllerException] Controller class ProductController could not be found.
+#0 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-13 17:03:57 Error: [MissingControllerException] Controller class ProductController could not be found.
+#0 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-13 17:04:02 Error: [MissingControllerException] Controller class CulutreController could not be found.
+#0 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-13 17:04:21 Error: [MissingControllerException] Controller class CulutreController could not be found.
+#0 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-13 17:04:26 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/disclaimer.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-13 17:26:46 Error: [MissingViewException] View file "/usr/local/gishhub.com/app/View/Pages/inquiry.html" is missing.
+#0 /usr/local/gishhub.com/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /usr/local/gishhub.com/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /usr/local/gishhub.com/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /usr/local/gishhub.com/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

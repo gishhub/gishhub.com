@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <?= $this->Html->charset(); ?>
+    <title><?= h($title_for_layout); ?></title>
+    <?= $this->Html->meta('icon'); ?>
+    <?= $this->Html->css('base'); ?>
+    <?= $scripts_for_layout; ?>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+<? // Google Analyticsコード記述個所  ?>
+
+$(function(){
+    $('#flash-message-success').fadeIn(1000).delay(3000).fadeOut(1000);
+});
+</script>
+</head>
+<body>
+    <?= $this->Session->flash(); ?>
+    <?= $this->element('home-bar' . DS . 'home-bar-top') ?>
+    <?= $this->element('home-bar' . DS . 'home-bar-bottom') ?>
+    <div id="container">
+        <?= $this->element('blank' . DS . 'blank_contents') ?>
+        <div id="content">
+            <?= $content_for_layout; ?>
+        </div>
+        <div id="footer" class="footer">
+            <br />
+            Copyright &copy; <?= date('Y'); ?> <?= TITLE ?> all rights reserved.
+            <br /><br />
+        </div>
+    </div>
+</body>
+</html>
