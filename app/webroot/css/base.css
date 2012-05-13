@@ -81,7 +81,6 @@ label {
 
 
 /* *********** 見出しの設定 *********** */
-
 h1 {
     font-size     : 24px;
     font-weight   : bold;
@@ -108,18 +107,6 @@ h2 {
     padding-bottom : 0px;
     font-style     : oblique; 
 }
-
-/*
-.h2_ver01 {     background : url(photo/middle/h2.jpg);
-                background-repeat : no-repeat;
-}
-.h2_ver02 {     background : url(photo/middle/h2_ver02.jpg);
-                background-repeat : no-repeat;
-}
-.h2_ver03 {     background : url(photo/middle/h2_ver03.jpg);
-                background-repeat : no-repeat;
-}
-*/
 
 h3 {    font-size : 22px;
         color : #008000;

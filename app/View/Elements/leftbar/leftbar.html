@@ -1,0 +1,43 @@
+<? $myAdmin = $this->Session->read('auth') ?>
+<div class="left-bar">
+    <?= $this->DispAdmin->dispWelcome($myAdmin) ?>
+    <div class="actions">
+        <div class="middleFont">質問管理</div>
+        <ul>
+            <li><a href="/admin/question/index">質問一覧</a></li>
+        </ul>
+        <div class="middleFont">Admin管理</div>
+        <ul>
+            <li><a href="/admin/index">Admin一覧</a></li>
+            <li><a href="/admin/add">Admin追加</a></li>
+        </ul>
+        <div class="middleFont">ユーザ管理</div>
+        <ul>
+            <li><a href="/admin/user/index">ユーザ一覧</a></li>
+            <li><a href="/admin/user/add">ユーザ追加</a></li>
+        </ul>
+        <div class="middleFont">言語名管理</div>
+        <ul>
+            <li><a href="/admin/language/index">言語名一覧</a></li>
+            <li><a href="/admin/language/add">言語名追加</a></li>
+        </ul>
+        <div class="middleFont">フレームワーク名管理</div>
+        <ul>
+            <li><a href="/admin/framework/index">フレームワーク名一覧</a></li>
+            <li><a href="/admin/framework/add">フレームワーク名追加</a></li>
+        </ul>
+        <div class="middleFont">機能名管理</div>
+        <ul>
+            <li><a href="/admin/functions/index">機能名一覧</a></li>
+            <li><a href="/admin/functions/add">機能追加</a></li>
+        </ul>
+        <div class="middleFont">コード管理</div>
+        <ul>
+            <li><a href="/admin/code/index">コード一覧</a></li>
+            <li><a href="/admin/code/add">コード追加</a></li>
+        </ul>
+    </div>
+    <div style="margin-top:10px;margin-bottom:10px;">
+        <a href="/admin/logout">ログアウト</a>
+    </div>
+</div>
