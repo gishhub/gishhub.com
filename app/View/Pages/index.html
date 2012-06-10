@@ -1,4 +1,19 @@
-<h2><?= h($title_for_layout) ?></h2>
-<ul>
-    <li><span>2012/05/13: </span><span>gishhub.comのサイトを公開いたしました。</span></li>
-</ul>
+<div class="row-fluid" style="margin-top:50px;">
+    <div class="span3">
+        <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+                <li class="nav-header">リリースノート</li>
+                <li>gishhub.comのサイトを公開しました!</li>
+            </ul>
+        </div>
+    </div>
+    <div class="span9">
+        <div class="hero-unit">
+            <a href="/" ><?= $this->Html->image('http://takadayuichi.net/image/gishhub_widelogo_small.png', array('alt' => TITLE)) ?></a>
+            <h2><?= h($title_for_layout) ?></h2>
+            <ul>
+                <li><span>2012/07/01: </span><span>gishhub.comのサイトを公開いたしました。</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
